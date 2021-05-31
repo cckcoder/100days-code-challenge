@@ -52,3 +52,35 @@ print(motorcycles)
 # output:
 ['ducati', 'yamaha', 'suzuki']
 ```
+### Add new item to the List
+```pythoh
+motorcycle.append('ducati')
+print(motorcycle)
+
+# output:
+['honda', 'yamaha', 'suzuki', 'ducati']
+```
+
+### Insert Elements into a List
+* `insert`
+
+```python
+motorcycles.insert(0, 'BMW')
+print(motorcycles)
+# output:
+['BMW', 'yamaha', 'suzuki', 'ducati']
+
+# it will change value index 0 from honda to BMW
+```
+
+### Removeing an Item Using the del statement
+* `del <list>[index]`
+
+```python
+motorcycles = ['honda', 'yamaha', 'suzuki']
+del motorcycles[0]
+print(motorcycles)
+
+#output:
+['yamaha', 'suzuki']
+```
