@@ -3,6 +3,8 @@
 motorcycles = ['honda', 'yamaha', 'suzuki']
 print(motorcycles)
 
-print('\n')
-motorcycles[0] = 'ducati'
+motorcycles.append('ducati')
+print(motorcycles)
+
+motorcycles.insert(0, 'BMW')
 print(motorcycles)
